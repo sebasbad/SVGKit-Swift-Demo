@@ -1,0 +1,30 @@
+PODS:
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - SVGKit (2.0.1):
+    - CocoaLumberjack (~> 2.x)
+
+DEPENDENCIES:
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `2.x`)
+
+EXTERNAL SOURCES:
+  SVGKit:
+    :branch: 2.x
+    :git: https://github.com/SVGKit/SVGKit.git
+
+CHECKOUT OPTIONS:
+  SVGKit:
+    :commit: 6d50d975fc155273f215ebc2e6479d48f1ca6877
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  SVGKit: 2afbeaf2c2be4615476951284750c3ddb790d0c7
+
+COCOAPODS: 0.39.0
