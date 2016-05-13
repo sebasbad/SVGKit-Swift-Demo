@@ -98,8 +98,8 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="lKK-3x-0RK" id="Ufn-A8-rCA"/>
-                        <outlet property="svgkFastImageView" destination="zoA-EC-hG7" id="HvN-SG-EWD"/>
-                        <outlet property="svgkLayeredImageView" destination="FDS-HP-Q8B" id="k5R-13-0Tr"/>
+                        <outlet property="svgkFastImageCanvasView" destination="zoA-EC-hG7" id="0DE-Zw-i0x"/>
+                        <outlet property="svgkLayeredImageCanvasView" destination="FDS-HP-Q8B" id="DsR-Kk-IOQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
